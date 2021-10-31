@@ -1,0 +1,7 @@
+alias lt='ls -althG'
+alias l='ls'
+alias c='cd'
+alias ..='cd ..'
+
+alias sublime='open -a "Sublime Text"'
+alias vscode='open -a "Visual Studio Code"'

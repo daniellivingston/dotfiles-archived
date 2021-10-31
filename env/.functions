@@ -1,0 +1,4 @@
+cpdir () {
+    # Copies the cwd to a macOS clipboard
+    echo "$(pwd)" | pbcopy
+}
