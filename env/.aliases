@@ -5,3 +5,4 @@ alias ..='cd ..'
 
 alias sublime='open -a "Sublime Text"'
 alias vscode='open -a "Visual Studio Code"'
+alias opendir='open -a "Finder" .'
