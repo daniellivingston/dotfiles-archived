@@ -9,3 +9,11 @@ In `~/.zsrc`, the only line should be:
 Or,
 
     ln -s ~/path/to/dotfiles/shell/.zshrc ~/.zshrc
+
+## Dependencies
+
+```sh
+$ brew install pure \
+        zsh-autosuggestions \
+        zsh-syntax-highlighting
+```
