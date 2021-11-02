@@ -17,3 +17,7 @@ $ brew install pure \
         zsh-autosuggestions \
         zsh-syntax-highlighting
 ```
+
+## iTerm2 Color Scheme
+
+- [Material Design](https://www.martinseeler.com/iterm2-material-design)
