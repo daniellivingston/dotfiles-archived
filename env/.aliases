@@ -19,7 +19,7 @@ alias l='exa'
 alias lt='exa --sort=modified --oneline --reverse --long --grid --all --group-directories-first --time-style=default --extended --group --header --classify --icons'
 
 ### Modern `cat`
-alias cat='bat'
+alias cat='bat --plain'
 
 ### Misc...
 alias record='asciinema rec'

@@ -6,6 +6,7 @@ DIR=`dirname "${THIS}"`
 # ==================================================== #
 . "$DIR/.zshrc_theme"
 . "$DIR/.miniconda_zsh"
+#. "$DIR/.miniforge_zsh"
 . "$DIR/.iterm2"
 # ==================================================== #
 . "$DIR/../env/.env"
