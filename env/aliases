@@ -1,4 +1,5 @@
 alias ..='cd ..'
+alias les='less -R -X -F --LINE-NUMBERS --ignore-case --status-column --raw-control-chars'
 
 # == Use modern CLI tools ==========================
 ### Modern `diff`
