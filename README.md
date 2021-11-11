@@ -22,6 +22,20 @@ $ brew install \
         # == modulefiles/ =============== #
         modules \
         \
+        # == modern CLI tools =========== #
+        z \
+        fzf \
+        exa \
+        httpie \
+        bat \
+        diff-so-fancy \
+        colordiff \
+        asciinema \
+        lazydocker \
+        ripgrep \
+        fd \
+        rg \
+        \
         # == misc. required ============= #
         miniconda \
         \
