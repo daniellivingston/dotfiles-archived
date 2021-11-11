@@ -42,17 +42,34 @@ $ brew install \
         # == misc. optional ============= #
         git \
         wget \
-        neovim \
-        tree \
         ffmpeg \
         cmake \
+        # Needed for gfortran && GNU compiler testing
         gcc \
-        htop \
         qt5 \
-        xquartz
+        xquartz \
+        neovim \
+        htop \
+        # Syntax highlighting, inc. w/ `less`
+        source-highlight \
+        rust \
+        # Great way of visualizing directory trees
+        tree \
+        # Update old bash
+        bash \
+        # For fun!
+        fish
 
 ```
 
 ## iTerm2 Color Scheme
 
 - [Material Design](https://www.martinseeler.com/iterm2-material-design)
+
+## Upgrading Bash
+
+For licensing reasons, the version of bash Apple ships under `/bin/bash` is a decade old. Upgrade with `brew install bash`. For more information: https://itnext.io/upgrading-bash-on-macos-7138bd1066ba
+
+# References
+
+- [Syntax highlight files in macOS Terminal with less](https://ole.michelsen.dk/blog/syntax-highlight-files-macos-terminal-less/)

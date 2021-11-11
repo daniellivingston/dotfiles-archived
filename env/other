@@ -1,0 +1,8 @@
+# ================================================
+# Colorize `less` output with GNU source-highlight
+# ================================================
+LESSPIPE=`which src-hilite-lesspipe.sh`
+export LESSOPEN="| ${LESSPIPE} %s"
+export LESS=' -R -X -F '
+# Custom less flags
+export LESS="${LESS} --LINE-NUMBERS --ignore-case --status-column --raw-control-chars"
