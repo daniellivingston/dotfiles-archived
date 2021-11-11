@@ -1,0 +1,7 @@
+# ==================================================== #
+# Activate Modules
+# ==================================================== #
+# via Homebrew - system dependent
+source /opt/homebrew/opt/modules/init/zsh
+# ---------------------------------------------------- #
+module use "$DIR/../modulefiles"

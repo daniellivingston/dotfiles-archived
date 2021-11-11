@@ -13,9 +13,15 @@ Or,
 ## Dependencies
 
 ```sh
-$ brew install pure \
+$ brew install \
+        # == zsh && oh-my-zsh =========== #
+        pure \
         zsh-autosuggestions \
-        zsh-syntax-highlighting
+        zsh-syntax-highlighting \
+        \
+        # == modulefiles/ =============== #
+        modules 
+        
 ```
 
 ## iTerm2 Color Scheme
