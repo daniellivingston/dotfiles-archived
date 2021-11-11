@@ -20,8 +20,23 @@ $ brew install \
         zsh-syntax-highlighting \
         \
         # == modulefiles/ =============== #
-        modules 
-        
+        modules \
+        \
+        # == misc. required ============= #
+        miniconda \
+        \
+        # == misc. optional ============= #
+        git \
+        wget \
+        neovim \
+        tree \
+        ffmpeg \
+        cmake \
+        gcc \
+        htop \
+        qt5 \
+        xquartz
+
 ```
 
 ## iTerm2 Color Scheme
