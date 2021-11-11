@@ -5,8 +5,8 @@ THIS=`readlink -f "${BASH_SOURCE[0]}" 2>/dev/null||echo $0`
 DIR=`dirname "${THIS}"`
 # ==================================================== #
 . "$DIR/.zshrc_theme"
-. "$DIR/.miniconda_zsh"
-#. "$DIR/.miniforge_zsh"
+#. "$DIR/.miniconda_zsh"
+. "$DIR/.miniforge_zsh"
 . "$DIR/.iterm2"
 # ==================================================== #
 . "$DIR/../env/.env"
