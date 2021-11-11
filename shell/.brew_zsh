@@ -5,3 +5,11 @@ then
   autoload -Uz compinit
   compinit
 fi
+
+
+
+# == initialize `z` ====================== #
+. /opt/homebrew/etc/profile.d/z.sh
+
+# == initialize `z` ====================== #
+$(brew --prefix)/opt/fzf/install

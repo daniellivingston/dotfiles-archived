@@ -1,3 +1,7 @@
+" == extensions ================= "
+set rtp+=/opt/homebrew/opt/fzf    " Initialize `fzf` integration into ViM
+" =============================== "
+
 set nocompatible                  " Must come first because it changes other options.
 
 syntax enable                     " Turn on syntax highlighting.

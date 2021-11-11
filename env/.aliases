@@ -1,7 +1,32 @@
-alias lt='ls -althG'
-alias l='ls'
-alias c='cd'
 alias ..='cd ..'
+
+# == Use modern CLI tools ==========================
+### Modern `diff`
+alias diff='colordiff'
+
+### Modern `cd`
+alias c='z'
+
+### Modern `grep`
+alias rgrep='rg'
+alias grep='rg --ignore-case'
+
+### Modern `find`
+alias ffind='fd'
+
+### Modern `ls`
+alias l='exa'
+alias lt='exa --sort=modified --oneline --reverse --long --grid --all --group-directories-first --time-style=default --extended --group --header --classify --icons'
+
+### Modern `cat`
+alias cat='bat'
+
+### Misc...
+alias record='asciinema rec'
+
+### Docker `top` alias
+alias dtop='lazydocker'
+# ==================================================
 
 alias sublime='open -a "Sublime Text"'
 alias vscode='open -a "Visual Studio Code"'
