@@ -10,7 +10,7 @@ alias c='z'
 
 ### Modern `grep`
 alias rgrep='rg'
-alias grep='rg --ignore-case'
+alias ggrep='rg --ignore-case'
 
 ### Modern `find`
 alias ffind='fd'
@@ -20,13 +20,17 @@ alias l='exa'
 alias lt='exa --sort=modified --oneline --reverse --long --grid --all --group-directories-first --time-style=default --extended --group --header --classify --icons'
 
 ### Modern `cat`
-alias cat='bat --plain'
+#### TODO: use ccat
+# alias cat='bat --plain'
 
 ### Misc...
 alias record='asciinema rec'
 
 ### Docker `top` alias
 alias dtop='lazydocker'
+
+### Spotify!!
+alias spotify='spt'
 # ==================================================
 
 alias sublime='open -a "Sublime Text"'

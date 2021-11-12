@@ -71,11 +71,21 @@ zstyle ':omz:update' frequency 13
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    git
-    history
-    emoji
-    #zsh-syntax-highlighting
-    #zsh-autosuggestions
+    git                         # aliases and a few useful functions
+    history                     # "h", "hs", "hsi" history search cmds
+    emoji                       # emoji support 🙂
+    colorize                    # "ccat"/"cless": syntax highlighted files
+    colored-man-pages           # adds colors to man pages
+    command-not-found           # provide suggested packages
+    docker                      # auto-completion for docker
+    python                      # aliases for useful python commands
+    pep8                        # adds completion for pep8
+    pip                         # adds completion for pip
+    copydir                     # copy current directory to clipboard
+    copyfile                    # copy file contents to clipboard
+    #
+    #zsh-syntax-highlighting    # provides syntax highlighting
+    #zsh-autosuggestions        # suggests commands as you type
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,6 +114,10 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export ZSH_COLORIZE_TOOL=pygmentize
+export ZSH_COLORIZE_STYLE="colorful"
+export ZSH_COLORIZE_CHROMA_FORMATTER=true-color
 
 # ==================================================== #
 

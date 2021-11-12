@@ -11,5 +11,4 @@ DIR=`dirname "${THIS}"`
 # ==================================================== #
 . "$DIR/../env/.env"
 # ==================================================== #
-
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

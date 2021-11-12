@@ -14,3 +14,8 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# Manually add PyQt5 (`brew install pyqt@5`): 
+#    workaround: it's not on conda-forge, and, as of now, has no apple-arm64 pip wheels
+export PATH="/opt/homebrew/Cellar/pyqt@5/5.15.4_2/bin:${PATH}"
+export PYTHONPATH="/opt/homebrew/Cellar/pyqt@5/5.15.4_2/lib/python3.9/site-packages:${PYTHONPATH}"
