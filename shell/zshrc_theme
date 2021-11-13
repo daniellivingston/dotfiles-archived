@@ -81,8 +81,11 @@ plugins=(
     python                      # aliases for useful python commands
     pep8                        # adds completion for pep8
     pip                         # adds completion for pip
+    poetry                      # adds completion for python-poetry
     copydir                     # copy current directory to clipboard
     copyfile                    # copy file contents to clipboard
+    copybuffer                  # Ctrl-O to copy current command line text
+    web-search                  # aliases for searching with Google, etc.
     #
     #zsh-syntax-highlighting    # provides syntax highlighting
     #zsh-autosuggestions        # suggests commands as you type
@@ -125,6 +128,10 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+reload () {
+    omz reload
+}
 
 # ==================================================== #
 

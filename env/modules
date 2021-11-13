@@ -5,3 +5,5 @@
 source /opt/homebrew/opt/modules/init/zsh
 # ---------------------------------------------------- #
 module use "$DIR/../modulefiles"
+# ---------------------------------------------------- #
+module load miniforge

@@ -1,0 +1,14 @@
+#%Module4.6
+conflict miniconda miniforge anaconda
+set scriptpath /Users/livingston/dev/dotfiles/conda
+switch -- [module-info shelltype] {
+    sh {
+        source-sh bash $scriptpath/miniforge.zsh
+    }
+    zsh {
+        source-sh zsh  $scriptpath/miniforge.zsh
+    }
+    csh {
+        source-sh tcsh $scriptpath/miniforge.zsh
+    }
+}
