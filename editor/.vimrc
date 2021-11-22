@@ -45,6 +45,9 @@ set showmatch
 " Map jj to <Esc>
 inoremap jj <ESC>
 
-set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
+" Fast move
+" inoremap J 10j
+" inoremap K 10k
 
+set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 

@@ -77,3 +77,6 @@ function _exit()              # Function to run upon exit of shell.
     echo -e "${BRed}Hasta la vista, baby${NC}"
 }
 trap _exit EXIT
+
+# Initialize Starship prompt
+eval "$(starship init bash)"

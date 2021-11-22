@@ -75,6 +75,7 @@ For licensing reasons, the version of bash Apple ships under `/bin/bash` is a de
 # References
 
 - [Syntax highlight files in macOS Terminal with less](https://ole.michelsen.dk/blog/syntax-highlight-files-macos-terminal-less/)
+- [Installing Zsh + Oh-My-Zsh + Starship: Increasing productivity](https://guinuxbr.com/en/posts/zsh+oh-my-zsh+starship/)
 
 # TODO
 

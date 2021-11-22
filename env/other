@@ -4,3 +4,6 @@
 LESSPIPE=`which src-hilite-lesspipe.sh`
 export LESSOPEN="| ${LESSPIPE} %s"
 export LESS=' -R -X -F '
+# ================================================
+export PATH="${PATH}:/Users/livingston/Library/Python/3.8/bin"
+export PATH="/Users/livingston/dev/local/bin:${PATH}"

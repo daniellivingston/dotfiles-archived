@@ -21,5 +21,7 @@ j11 () {
 # Needed for python-poetry
 fpath+=~/.zfunc
 
+# Initialize Starship prompt
+eval "$(starship init zsh)"
 # ====== THIS MUST BE THE LAST LINE EXECUTED BY `.zshrc` ========================
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
