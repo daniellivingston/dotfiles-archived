@@ -1,3 +1,10 @@
+# NEW
+
+ln -nfs /Users/mbbroberg/Develop/.gitconfig /Users/mbbroberg/.gitconfig
+
+https://opensource.com/article/19/3/move-your-dotfiles-version-control
+
+
 # `dotfiles`
 
 ## Setting Up
